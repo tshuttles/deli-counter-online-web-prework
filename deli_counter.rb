@@ -13,7 +13,7 @@ def line(katz_deli)
 end
 
 def take_a_number
-  kat
+  katz_deli << 
 end
 
 def now_serving
