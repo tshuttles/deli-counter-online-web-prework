@@ -8,7 +8,7 @@ def line(katz_deli)
     katz_deli.each.with_index(1) do |name, index|
     line_array << "#{index}. #{name}"
     end
-  
+  puts "The line is currently: #{line_array.join(" ")}"
   end
 end
 
