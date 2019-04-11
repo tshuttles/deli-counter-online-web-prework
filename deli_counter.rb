@@ -7,6 +7,8 @@ def line(katz_deli)
   else
     katz_deli.each.with_index(1) do |name, index|
     line_array << "#{index}. #{name}"
+    end
+  
   end
 end
 
